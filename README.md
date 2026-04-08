@@ -59,22 +59,22 @@ model.pth         # Trained model
 requirements.txt
 ## 📊 Model Performance
 - Validation Accuracy: 97%
-                    precision    recall  f1-score   support
+                            precision    recall  f1-score   support
 
-            Beagle       1.00      1.00      1.00        10
-             Boxer       1.00      1.00      1.00        10
-           Bulldog       1.00      0.90      0.95        10
-         Dachshund       0.91      1.00      0.95        10
-   German_Shepherd       1.00      0.90      0.95        10
-  Golden_Retriever       1.00      0.90      0.95        10
-Labrador_Retriever       1.00      1.00      1.00        10
-            Poodle       1.00      1.00      1.00        10
-        Rottweiler       1.00      1.00      1.00        10
- Yorkshire_Terrier       0.83      1.00      0.91        10
+                    Beagle       1.00      1.00      1.00        10
+                     Boxer       1.00      1.00      1.00        10
+                   Bulldog       1.00      0.90      0.95        10
+                 Dachshund       0.91      1.00      0.95        10
+           German_Shepherd       1.00      0.90      0.95        10
+          Golden_Retriever       1.00      0.90      0.95        10
+        Labrador_Retriever       1.00      1.00      1.00        10
+                    Poodle       1.00      1.00      1.00        10
+                Rottweiler       1.00      1.00      1.00        10
+         Yorkshire_Terrier       0.83      1.00      0.91        10
 
-          accuracy                           0.97       100
-         macro avg       0.97      0.97      0.97       100
-      weighted avg       0.97      0.97      0.97       100
+                  accuracy                           0.97       100
+                 macro avg       0.97      0.97      0.97       100
+              weighted avg       0.97      0.97      0.97       100
 
 ## 👨‍💻 Author
 Athavan S — College Project
