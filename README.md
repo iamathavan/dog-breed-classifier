@@ -76,5 +76,8 @@ requirements.txt
                  macro avg       0.97      0.97      0.97       100
               weighted avg       0.97      0.97      0.97       100
 
+## 🖼️ Demo
+![App Screenshot](assets/demo.png)
+
 ## 👨‍💻 Author
 Athavan S — College Project
