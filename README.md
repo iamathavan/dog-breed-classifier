@@ -1,29 +1,29 @@
-# 🐶 Dog Breed Classifier
+# Dog Breed Classifier
 
 A deep learning web app that identifies dog breeds from images.
 Built as a college project to learn CNN and image processing.
 
-## 📌 Features
+## Features
 - Classifies 10 dog breeds
 - Shows Top 3 predictions with confidence scores
 - Simple drag & drop web interface
 
-## 🧠 Model
+## Model
 - Architecture: EfficientNet-B0 (Transfer Learning)
 - Dataset: 100 images × 10 breeds (custom)
 - Framework: PyTorch
 
-## 🐾 Supported Breeds
+## Supported Breeds
 - (List your 10 breeds here)
 
-## 🛠️ Tech Stack
+## Tech Stack
 | Layer     | Tech                |
 |-----------|---------------------|
 | Model     | PyTorch + EfficientNet-B0 |
 | Backend   | Flask (Python)      |
 | Frontend  | HTML + CSS + JS     |
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repo
 ```bash
@@ -45,7 +45,7 @@ python app.py
 http://localhost:5000
 
 
-## 📁 Project Structure
+## Project Structure
 dog_breed_classifier/
 model/
 train.py        # Training script
@@ -57,7 +57,7 @@ index.html
 app.py            # Flask backend
 model.pth         # Trained model
 requirements.txt
-## 📊 Model Performance
+## Model Performance
 - Validation Accuracy: 97%
                             precision    recall  f1-score   support
 
@@ -76,8 +76,8 @@ requirements.txt
                  macro avg       0.97      0.97      0.97       100
               weighted avg       0.97      0.97      0.97       100
 
-## 🖼️ Demo
+## Demo
 ![App Screenshot](assets/demo.png)
 
-## 👨‍💻 Author
+## Author
 Athavan S — College Project
