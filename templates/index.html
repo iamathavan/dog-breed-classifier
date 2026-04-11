@@ -21,14 +21,40 @@
 
     <button id="predictBtn" disabled>Identify Breed</button>
 
+    <div id="loader" hidden>🔍 Analyzing...</div>
+
     <div id="results" hidden>
-      <h2>Results</h2>
-      <div id="resultCards"></div>
+      <div class="breed-card">
+        <div class="breed-header">
+          <span class="trophy">🏆</span>
+          <h2 id="breedName"></h2>
+        </div>
+        <div class="breed-details">
+          <div class="detail-row">
+            <span class="detail-label">📋 About</span>
+            <p id="breedAbout"></p>
+          </div>
+          <div class="detail-grid">
+            <div class="detail-item">
+              <span class="detail-label">😊 Temperament</span>
+              <span id="breedTemp"></span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">📅 Lifespan</span>
+              <span id="breedLife"></span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">📏 Size</span>
+              <span id="breedSize"></span>
+            </div>
+          </div>
+        </div>
+        <a id="breedLink" href="#" target="_blank" class="learn-more">
+          Learn More About This Breed →
+        </a>
+      </div>
     </div>
-
-    <div id="loader" hidden>Analyzing...</div>
   </div>
-
   <script src="/static/script.js"></script>
 </body>
 </html>
